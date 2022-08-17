@@ -1,6 +1,6 @@
 import { CsvFileReader } from './CsvFileReader.js';
-import { MatchResult } from './MatchResult.js';
-import { dateStringToDate } from './utills.js';
+import { MatchResult } from '../MatchResult.js';
+import { dateStringToDate } from '../utills.js';
 
 type MatchData = [Date, string, string, number, number, MatchResult, string];
 
