@@ -1,3 +1,4 @@
+
 import { WinAnalysis } from "./analyzers/winAnalysis.js";
 import { ConsoleOutput } from "./ConsoleOutput.js";
 import { CsvFileReader } from "./CsvFileReader.js";
@@ -11,3 +12,4 @@ matchReader.load();
 new Summary(new WinAnalysis("Cardiff"), new ConsoleOutput()).buildAndPrint(
   matchReader.matches
 );
+
